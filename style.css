@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #64748b;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Utility Class */
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: #0f172a;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: #645cff;
+}
+
+.primary-button {
+    background-color: #645cff;
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+.primary-button:hover {
+    background-color: #3c3799;
+}
+
+/* nav-section */
+
+.main-nav {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.links {
+    padding-inline: 20px;
+}
+
+/* nav-section-end */
+
+
+/* hero-section */
+
+.hero-container {
+
+    background-image: url(/Assets/asset\ 5.jpeg);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: 40vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: white;
+}
+
+/* hero-section-end */
+
+
+/* both-container  */
+
+.both-container {
+    gap: 80px;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+/* both-container-end  */
+
+/* detailed-section  */
+
+.detailed-recipe img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.detailed-recipe {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px transparent;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.detailed-recipe a {
+    color: #0f172a;
+    height: 45vh;
+}
+
+.detailed-recipe a:hover {
+    color:#0f172a;
+    transform: scale(1.06);
+    transition: 0.3s ease-in-out ;
+}
+
+.detailed-recipe a:visited {
+    color: #0f172a;
+}
+
+.detailed-recipe a:active {
+    color:#0f172a;
+}
+
+.detailed-recipe-section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+}
+
+/* detailed-section-end  */
+
+
+/* tags-section */
+
+.tags {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tags li {
+    margin-top: 5px;
+}
+
+/* tags-section-end */
+
+
+
+.footer-section {
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 4rem;
+}
+
+.footer-section-1 {
+    display: flex;
+    position: absolute;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 4rem;
+    bottom: 0;
+}
+
+.footer-section p {
+    color: white;
+    font-size: medium;
+}
+
+
+
+
+/* About Page */
+
+.detail-about {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-block: 100px;
+}
+
+.about-text {
+    flex-direction: column;
+    text-align:justify;
+    gap: 20px;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    text-align:center;
+}
+
+.about-text p {
+    color: #0f172a;
+}
+
+.about-img {
+    height: 400px;
+    border-radius: 4px;
+}
+
+.about-h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-about {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    padding: 40px 20px;
+    overflow: hidden;
+
+}
+
+.detailed-recipe-about {
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+/* About Page End */
+
+
+/* Tags Page */
+
+.recipe-tags {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #64748b;
+    border-radius: 4px;
+    text-align: center;
+    padding-block: 15px;
+}
+
+.recipe-tags p {
+    color: white;
+}
+
+.recipe-tags h5 {
+    color: white;
+}
+
+.tags-section {
+    flex-wrap: wrap;
+}
+
+
+/* Tags Page End */
+
+
+
+/* Contact Page */
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.form {
+    flex-direction: column;
+    background-color: white;
+    border: transparent;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.8rem;
+    width: 30vw;
+}
+
+.form input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    background-color: #f8fafc;
+    padding: 10px 15px;
+}
+
+.Message {
+    height: 150px;
+
+}
+
+.form input[type="submit"] {
+    width: 25vw;
+    background-color: #645cff;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #3c3799;
+}
+
+.form-content {
+    width: 25vw;
+    background-color: white;
+}
+
+
+/* Contact Page */

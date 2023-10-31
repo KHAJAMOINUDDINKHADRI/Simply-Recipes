@@ -1,0 +1,83 @@
+.hero-image {
+    width: 500px;
+}
+article {
+    text-align:justify;
+    margin-block: 25px;
+}
+.combine-info {
+    display: flex;
+    gap: 40px;
+}
+.cook-info {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;  
+}
+.cook-info h4 {
+    font-size: 1.2rem;
+}
+.cook-info p {
+    font-size: 1rem;
+}
+.icon-image {
+    width: 30px;
+}
+.prep-time, .ingredients-req, .serving-people {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.single-recipe-tags {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-block:30px;
+}
+.tags-button {
+    background-color: #645cff;
+    border-radius: 6px;
+    font-weight:400;
+    color: white !important;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.tags-button:hover {
+    background-color: #3c3799;
+}
+.single-recipe-tags a {
+   font-size: 0.8rem;
+}
+.directions h4 , .ingredients h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    border-bottom: 2px solid;
+    border-color: #645cff;
+}
+.directions h5 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #645cff;
+}
+.directions p , .ingredients p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #222;
+    padding-bottom: 20px; 
+    border-bottom: 2px solid;
+    border-color: #cbd5e1;
+}
+.directions {
+    width: 80%;
+}
+
+.recipe-content-directions {
+    display: flex;
+    gap: 100px;
+    align-items: start;
+}
