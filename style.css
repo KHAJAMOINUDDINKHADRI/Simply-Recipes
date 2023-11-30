@@ -405,6 +405,20 @@ ul {
         grid-template-columns: repeat(2, 1fr);
         padding: 40px 20px;
     }
+
+    .directions,
+    .ingredients {
+        width: 100% !important;
+    }
+
+    .combine-info {
+        flex-direction: column-reverse;
+    }
+
+    .recipe-content-directions {
+        flex-direction: column-reverse;
+        margin: 40px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -455,7 +469,7 @@ ul {
         gap: 10px;
     }
 
-    ul {
+    .tags ul {
         display: flex;
         gap: 18px;
         flex-wrap: wrap;
