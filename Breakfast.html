@@ -15,7 +15,7 @@
             <a href="index.html" class="company-logo">
                 <img src="/Assets/asset 0.jpg" alt="simply recipes logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
                     <li class="links"><a href="index.html" class="hover-link">Home</a></li>
                     <li class="links"><a href="About.html" class="hover-link">About</a></li>
@@ -24,6 +24,9 @@
                     <li class="links"><a href="Contact.html" class="hover-link primary-button">Contact</a></li>
                 </ul>
             </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <img src="Assets/hamburger.jpg" alt="Hamburger icon">
+            </a>
         </div>
     </nav>
     <!-- nav-section-end -->
@@ -94,6 +97,15 @@
         </div>
     </footer>
 
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+
+    </script>
    
 </body>
 </html>

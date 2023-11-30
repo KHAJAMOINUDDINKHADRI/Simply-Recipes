@@ -96,6 +96,7 @@ ul {
 .main-nav {
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 
 .main-nav img {
@@ -104,6 +105,18 @@ ul {
 
 .links {
     padding-inline: 20px;
+}
+
+.nav-links ul {
+    justify-content: end;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle img{
+    width: 40px;
 }
 
 /* nav-section-end */
@@ -152,7 +165,7 @@ ul {
 }
 
 .detailed-recipe {
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     border: 2px transparent;
@@ -406,7 +419,50 @@ ul {
 }
 
 @media screen and (max-width: 850px) {
-
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        overflow: initial;
+    }
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active {
+        left: 0;
+    }
+    .nav-links ul {
+        flex-direction: column;
+    }
+    .links {
+        margin-bottom: 28px;
+    }
+    .detailed-recipe-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .both-container {
+        gap: 60px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tags {
+        flex-direction: column;
+        gap: 10px;
+    }
+    ul {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 720px) {
