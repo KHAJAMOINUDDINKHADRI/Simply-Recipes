@@ -231,6 +231,11 @@ ul {
     font-size: medium;
 }
 
+.footer-section-tags {
+    position: absolute;
+    bottom: 0;
+}
+
 /* About Page */
 
 .detail-about {
