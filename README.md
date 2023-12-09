@@ -6,25 +6,19 @@ Welcome to Simply Recipes, an exquisite recipe website meticulously crafted with
 
 ### Initial View
 - Upon a DOM reload, users are greeted with a sleek navigation bar featuring the Simply Recipes logo and navigation elements: Home, About, Tags, Recipes, and Contact.
-- This streamlined layout ensures intuitive access to key sections of the website.
-
-### Main Page
-- Reveals an inviting welcome on the main page.
+- Reveals an inviting welcome with an image and text.
 - In the Recipes section, a recipe tag ensures easy navigation to various categories.
 - The remaining space is dedicated to detailed recipe cards, blending visual appeal with practicality to create an enjoyable layout that enhances the overall user experience.
 
-### Recipe Pages
-- Multiple pages meticulously designed for a seamless and immersive recipe browsing experience.
-- Recipe data is meticulously hard-coded, featuring recipe photos, names, times, and serving details in an elegant card format.
-
 ### Detailed Recipe View
+- Recipe data is meticulously hard-coded, featuring recipe photos, names, times, and serving details in an elegant card format.
 - Clicking on a recipe card unveils a detailed view with an image, additional information about the recipe, and relevant tags.
 - Directions and ingredients are presented in a user-friendly format for easy understanding and execution.
 
 ### Tags Page
 - Explore a rich variety of tags such as food, lunch, breakfast, dinner, rice, curry, snacks, sweets, etc., to effortlessly discover recipes tailored to individual preferences.
 
-### About Me
+### About Me Page
 - Delve deeper into the creator's persona through a detailed About Me page, featuring an introduction and curated list of favorite recipes.
 
 ### Contact Page
