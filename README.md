@@ -1,6 +1,6 @@
 # 🍽️ Simply Recipes
 
-Welcome to Simply Recipes, an exquisite recipe website meticulously crafted with HTML, CSS, and JavaScript. This project promises a culinary adventure, offering a diverse range of recipes and an array of engaging features.
+Welcome to Simply Recipes, a carefully crafted website using HTML, CSS, and JavaScript. Explore a variety of recipes and enjoy engaging features for a delightful cooking experience.
 
 ## 🚀 Features
 
